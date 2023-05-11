@@ -27,7 +27,7 @@
     top: -93px;
     width: 100%;
     height: 115vh;
-    background: #fff url(https://drive.google.com/uc?export=download&id=1zenv7hNx8PIRp7QfNt9kGl9DfilTTTjO) no-repeat center;
+    background: rgb(255, 255, 255) url(https://drive.google.com/uc?export=download&id=1zenv7hNx8PIRp7QfNt9kGl9DfilTTTjO) no-repeat center;
     z-index: 40;
     background-size: 40px;
              }
@@ -82,8 +82,8 @@
     .lis{
       display: none;
     }
-    .juk{
-      filter: invert(1);
+    .jaki{
+      filter: invert(1) !important;
     }
   .p{
     height: 54px;
@@ -112,8 +112,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 368px;
-     transition-duration: 1s;
+    height: 433px;
+    transition-duration: 1s;
   }
   .listtop a{
     background-color: #ffffff;

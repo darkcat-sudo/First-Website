@@ -22,7 +22,7 @@
         background-size: 47px 60px;
     }
     #ny{
-       overflow-y: hidden;
+     /*  overflow-y: hidden; */
     }
     .navbar{
         position: fixed;
