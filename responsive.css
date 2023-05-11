@@ -111,8 +111,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 368px;
-     transition-duration: 1s;
+    height: 433px;
+    transition-duration: 1s;
   }
   .listtop a{
     background-color: #ffffff;
