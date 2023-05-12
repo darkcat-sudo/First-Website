@@ -6,6 +6,7 @@
         padding: 0px;
         list-style: none;
         text-decoration: none;
+        box-sizing: border-box;
         
     }
     #dut{
@@ -75,164 +76,59 @@
         }
        
          
-    .content{
-        background: rgba(0, 0,0,0.7) url(https://drive.google.com/uc?export=download&id=1uYFtJhT8tR3YBNcEPyoYAzhGheIUU9vZ);
-        
-        background-size: 100% 2000px;
-        min-height: 100vh;
-        
-        
-    }
-    .bd{
-        display: none;
-    }
-
-    .gatuu{
-        background: rgba(0, 0,0,0.7) url(https://drive.google.com/uc?export=download&id=1uYFtJhT8tR3YBNcEPyoYAzhGheIUU9vZ);
-        background-size: 100% 2000px;
-        min-height: 100vh;
-        display: grid;
-        place-items: center;
-        margin: 24px 0px;
-    }
+    
    
     h1{
         opacity: 0;
         height: 56px;
         width: 0.01px;
-    }
-     .container{
-
-        background-color: rgba(255, 255, 255, 0.788);
-        width: 71%;
-        height: 78vh;
-        margin: 71px 160px;
-        
-        border-radius: 30px;
-        display: flex;
-        row-gap: 28px;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
      }
-  
-    .container a {
-       font-size: 27px;
-       border: 2px solid red;
-       text-decoration: dashed;
-       text-align: center;
-       background-color: rgb(0, 0, 0);
 
-    }
+/* start your design from here */
+
+.gyj{
+    display: grid;
+    place-items: center;
+    min-height: 87vh;
     
-    /* explore button*/
-    .bt{
-     
-        display: grid;
-        place-items: center;
-        margin: 30px 0px;
-    }
-    .btstyle{ 
-      background-color: rgb(255, 255, 255);
-      color: rgb(0, 0, 0);
-      border: none;
-      border-radius: 5px;
-      padding: 11px 16px;
-      font-size: 20px;
-      cursor: pointer;
-      transition-duration: 700ms;
-    }
-    .btstyle:hover{
-        background-color: rgb(0, 0, 0);
-        color: rgb(255, 255, 255);
-        border-radius: 5px;
-        padding: 11px 16px;
-        font-size: 20px;
-        cursor: pointer;
-    }
-    .btstyle-active{
-        background-color: rgb(0, 0, 0);
-        color: rgb(255, 255, 255);
-        border-radius: 5px;
-        padding: 11px 16px;
-        font-size: 20px;
-        cursor: pointer;
-    }
+    width: 100%;
+}
+.kil{
+    background: rgb(255, 255, 255);
+    height: 77vh;
+    width: 95%;
+}
+.nab{
+    height: 41px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    
+    
+}
+.nab a{
+    display: grid;
+    place-items: center;
+    background: #7fffd4b8;
+    padding: 0px 14px;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+.gan{
+    padding: 0px 15px !important;
+}
 
-    .bdpart{
-        margin: 28px 0px;
-        display: grid !important;
-        place-items: center;
-     
-      }
-      .rty{
-         background: rgba(255, 255, 255, 0.699);
-          width: 80%;
-          border-radius: 39px;
-          backdrop-filter: blur(2.8px);
-     
-      }
-       #bappi{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          gap: 8px;
-          
-       }
-       .link{
-        background-color: rgb(200,0,0);
-        color: white;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        padding: 7px 9px;
-       }
-       .ui{
-          margin: 20px;
-          text-align: center;
-       }
-       #gapi{
-        font-size: 14.48px;
-        margin: 0px 99px;
-     
-       }
-      
-       #bappi{
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          gap: 8px;
-          
-       }
-       .link{
-        background-color: rgb(200,0,0);
-        color: white;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        padding: 7px 9px;
-       }
-       .ui{
-          margin: 20px;
-          text-align: center;
-       }
-       #gapi{
-        font-size: 14.48px;
-        margin: 0px 99px;
-     
-       }
-
-
-
- .none iframe{
-   width: 460px;
-   height: 315px;
- }
+hr{
+    border: 1px solid #e9d573;
+}
 
 
 
 
 
-    }
+
+}
         
     

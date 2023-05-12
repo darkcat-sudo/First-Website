@@ -36,14 +36,9 @@ function change() {
 document.querySelector('.burger').addEventListener('click',change);
 }
 
-function etu(){
-  let bt = document.querySelector("#bbd");
-  let yui=document.querySelector(".btstyle");
-  bt.classList.toggle("bdpart");
-  yui.classList.toggle("btstyle-active");
-}
 function suB(){
   window.open("https://youtu.be/oO5k-0QpxTk","_blank");
   
 
 }
+// start grinding

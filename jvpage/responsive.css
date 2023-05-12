@@ -139,7 +139,7 @@
     box-shadow: -4px 0px 50px 0px black;
     height: 100vh;
     width: 66%;
-    right: -289px;
+    right: -363px;
     transition-duration: 800ms;
   }
   .theme{
@@ -175,102 +175,8 @@
     z-index: 95;
     display: block !important;
   }
-  #dut{
-      display: none;
-  }
-  #duti{
-       position: fixed;
-  }
-  .yui{
-      height: 400px;
-      width: 400px;
-  }
+
   
-
-
-  /*   explore winddow css*/
-  .bt{
-     
-      display: grid;
-      place-items: center;
-      margin: 30px 0px;
-  }
-  .btstyle{ 
-    background-color: rgb(255 255 255);
-    color: black;
-    border-radius: 5px;
-    padding: 11px 16px;
-    font-size: 20px;
-    cursor: pointer;
-    transition-duration: 500ms;
-  }
-  .btstyle-active{
-    
-    background-color: rgb(0, 0, 0) !important;
-    color: rgb(255, 255, 255) !important;
-    border-radius: 5px;
-    padding: 11px 16px;
-    font-size: 20px;
-    cursor: pointer;
-    transition-duration: 500ms;
-  }
-  
-  .bdpart{
-    margin: 28px 0px;
-    display: grid !important;
-    place-items: center;
-    
-    
- 
-  }
-  .dttx{
-      font-size: 22px;
-      margin: 0px 13px;
-
-  }
-  .gatuu{
-    background: rgba(0, 0,0,0.7) url(https://drive.google.com/uc?export=download&id=1uYFtJhT8tR3YBNcEPyoYAzhGheIUU9vZ);
-    background-size: 100% 2000px;
-    min-height: 100vh;
-    display: grid;
-    place-items: center;
-    margin: 12px 0px;
-}
-  .rty{
-    background: rgba(255, 255, 255, 0.767);
-      width: 90%;
-      border-radius: 20px;
-      backdrop-filter: blur(2.4px);
- 
-  }
-   #bappi{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 8px;
-      
-   }
-   .link{
-    background-color: rgb(200,0,0);
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    padding: 7px 9px;
-   }
-   .ui{
-      margin: 20px;
-      text-align: center;
-   }
-   #gapi{
-    font-size: 14.48px;
-    margin: 0px 26px;
- 
-   }
-   .bd{
-       display: none;
-   }
-
 
   .logo img{
     margin: 11px 22px;
@@ -280,45 +186,53 @@
     height: 54px;
     display: flex;
   }
-  .none{
-    width: 100%;
-    display: grid;
-    place-items: center;
-    gap: 18px 0px;
-    margin: 39px 0px;
-  }
-  .none iframe{
-    width: 93%;
-    height: 217px;
-  }
+ 
   h1{
       opacity: 0;
       height: 54px;
       width: 0.1px;
   }
+  /* start your design from here */
   
-  .container{
-
-    background-color: rgba(255, 255, 255, 0.788);
-    width: 93%;
-    height: 85vh;
-    margin: 0px 1.65vh 66px;
-    border-radius: 30px;
+  .gyj{
+    display: grid;
+    place-items: center;
+    min-height: 87vh;
+    
+    width: 100%;
+}
+.kil{
+    background: rgb(255, 255, 255);
+    height: 77vh;
+    width: 95%;
+}
+.nab{
+    height: 41px;
+    width: 100%;
+    
     display: flex;
-    row-gap: 28px;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
- }
-
-.container a{
-   font-size: 27px;
-   border: 1px solid red;
-  
-   text-align: center;
-   background-color: rgb(0, 0, 0);
+    
+    
+}
+.nab a{
+    display: grid;
+    place-items: center;
+    background: #7fffd4b8;
+    padding: 0px 14px;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+.gan{
+    padding: 0px 15px !important;
 }
 
+hr{
+    border: 1px solid #e9d573;
+}
+
+  
 
 
 
@@ -327,4 +241,4 @@
 
 
 
-                      }
+}
