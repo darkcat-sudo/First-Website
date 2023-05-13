@@ -207,6 +207,7 @@
     height: 85vh;
 
     width: 95%;
+    overflow-y: hidden;
 }
 .nab{
     height: 41px;
@@ -256,13 +257,14 @@ hr{
 }
 .short{
   display: flex;
+  gap: 13px;
   margin: 31px 15px;
 }
 
 
 .vds{
   overflow: scroll;
-
+  
   width: 131px;
   border-radius: 13px;
 }
