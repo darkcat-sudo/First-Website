@@ -97,6 +97,7 @@
     background: rgb(255, 255, 255);
     height: 81vh;
     width: 95%;
+    overflow-y: hidden;
 }
 .nab{
     height: 41px;
