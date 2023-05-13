@@ -246,7 +246,7 @@ hr{
   flex-direction: column;
 }
 .muli{
-  background: green;
+ background: rgb(255, 255, 255);
   overflow-y: hidden;
   width: 100%;
   
@@ -263,7 +263,8 @@ hr{
 
 
 .vds{
-  overflow: scroll;
+  overflow-y: scroll !;
+
   
   width: 131px;
   border-radius: 13px;
