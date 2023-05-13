@@ -130,12 +130,16 @@ hr{
 .main{
     background: red;
     height: 78vh;
+    display: flex;
+    flex-direction: column;
   }
 .muli{
-  background: green;
+    background: green;
+    height: 40vh;
   }
 .tuli{
     background: rgb(0, 9, 128);
+    min-height: 37vh;
 }
 
 
