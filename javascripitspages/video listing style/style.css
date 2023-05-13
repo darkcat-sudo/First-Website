@@ -129,14 +129,16 @@ hr{
 
 .main{
     background: red;
-    height: 78vh;
+    min-height: 78vh;
     display: flex;
     flex-direction: column;
+    overflow-y: hidden;
   }
   .muli{
-    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.747);
      overflow-y: hidden;
      width: 100%;
+     height: 328px;
      
    }
    .tuli{
