@@ -172,6 +172,7 @@
     height: 100vh;
     background: #0000002b;
     position: fixed;
+    top: 44px;
     z-index: 95;
     display: block !important;
   }
@@ -203,7 +204,8 @@
 }
 .kil{
     background: rgb(255, 255, 255);
-    height: 77vh;
+    height: 85vh;
+
     width: 95%;
 }
 .nab{
@@ -222,7 +224,7 @@
     padding: 0px 14px;
     height: 100%;
     box-sizing: border-box;
-    font-size: 13px;
+    font-size: 0.6rem;
 }
 .gan{
     padding: 0px 15px !important;
