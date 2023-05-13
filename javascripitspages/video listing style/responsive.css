@@ -246,6 +246,7 @@ hr{
 }
 .muli{
   background: green;
+  overflow: hidden;
   
 }
 .tuli{
@@ -257,8 +258,9 @@ hr{
   margin: 31px 15px;
 }
 
-}
+
 .vds{
+  overflow: scroll;
 
   width: 131px;
   border-radius: 13px;
