@@ -133,15 +133,31 @@ hr{
     display: flex;
     flex-direction: column;
   }
-.muli{
-    background: green;
-    height: 40vh;
-  }
-.tuli{
-    background: rgb(0, 9, 128);
-    min-height: 37vh;
-}
-
+  .muli{
+    background: rgb(255, 255, 255);
+     overflow-y: hidden;
+     width: 100%;
+     
+   }
+   .tuli{
+     background: rgb(0, 9, 128);
+     min-height: 37vh;
+   }
+   .short{
+     display: flex;
+     gap: 13px;
+     margin: 31px 15px;
+   }
+   
+   
+   .vds{
+     overflow-y: scroll !;
+   
+     
+     width: 131px;
+     border-radius: 13px;
+   }
+     
 
 
 
