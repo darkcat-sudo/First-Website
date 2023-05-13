@@ -1,0 +1,140 @@
+
+/*lagrge screen*/
+@media only screen and (min-width: 600px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        text-decoration: none;
+        box-sizing: border-box;
+        
+    }
+    #dut{
+        display: none;
+    }
+    
+    #loding{
+        position: fixed;
+        bottom: -96px;
+        width: 100%;
+        height: 141vh;
+        background: #fff url(https://drive.google.com/uc?export=download&id=1zenv7hNx8PIRp7QfNt9kGl9DfilTTTjO) no-repeat center;
+        z-index: 40;
+        background-size: 47px 60px;
+    }
+    #ny{
+     /*  overflow-y: hidden; */
+    }
+    .navbar{
+        position: fixed;
+        width: 100%;
+        height: 56px;
+        background-color: rgb(163, 224, 235);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 223px;
+        z-index: 99;
+    
+       
+    }
+    .list{
+        display: none;
+    }
+    .logo{
+        height: 56px;
+        display: flex;
+    }
+           .logo img{
+            margin: 11px -53px;
+            
+          }
+    .burger{
+        display: none;
+    }
+   .lis a:hover{
+      color: red;
+      background-color: white;
+      transition: 0.95s;
+        }
+        .lis{
+            display: flex;
+            
+        }
+        .lis a{
+            padding: 4px 16px;
+            border: 2px solid white;
+            color: rgb(97, 52, 52);
+            border-radius: 5px;
+            font-size: 17px;
+            margin-right: 12px;
+            
+        }
+        .juk{
+            color: red !important;
+      background-color: white !important;
+        }
+       
+         
+    
+   
+    h1{
+        opacity: 0;
+        height: 56px;
+        width: 0.01px;
+     }
+
+/* start your design from here */
+
+.gyj{
+    display: grid;
+    place-items: center;
+    min-height: 87vh;
+    
+    width: 100%;
+}
+.kil{
+    background: rgb(255, 255, 255);
+    height: 81vh;
+    width: 95%;
+}
+.nab{
+    height: 41px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    
+    
+}
+.nab a{
+    display: grid;
+    place-items: center;
+    background: rgba(127, 255, 212, 0.722);
+    padding: 0px 14px;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+.gan{
+    padding: 0px 15px !important;
+}
+.vdl{
+    background: rgb(96 243 194 / 78%) !important;
+}
+
+hr{
+    border: 1px solid #e9d573;
+}
+
+.main{
+    background: red;
+    height: 78vh;
+  }
+
+
+
+
+}
+        
+    
